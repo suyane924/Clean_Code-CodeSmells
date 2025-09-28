@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Clean Code: Comments - Identificação e Refatoração</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700&family=Roboto+Mono:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <h1>Princípios de Clean Code</h1>
+        <p class="subtitle">Quando Comentar é um Sinal de Código Ruim</p>
+    </header>
+
+    <main>
+        <section class="team-info">
+            <h2> Tema e Equipe</h2>
+            <p>
+                <strong>Code Smell Escolhido:</strong> Comments (Comentários Excessivos ou Informativos Desnecessários)
+            </p>
+            <p>
+                <strong>Integrantes:</strong> Gabriel Tarciso Macieiski e Suyane Bonfanti dos Santos
+            </p>
+        </section>
+        
+        <hr>
+
+        <section class="definition">
+            <h2> O que é o Code Smell "Comments"?</h2>
+            <p>
+                O Code Smell Comentários ocorre quando um desenvolvedor utiliza comentários em excesso para explicar um trecho de código que deveria ser autoexplicativo. Em essência, ele não é um problema de código, mas sim um sinal de alerta de que o código subjacente está confuso, mal nomeado, ou complexo demais para ser compreendido sem ajuda externa. Ele viola a máxima "o código deve ser sua própria documentação".
+            </p>
+        </section>
+
+        <hr>
+
+        <section class="consequences infographic-style">
+            <h2> Consequências: Por que Comentários Podem "Cheirar Mal"?</h2>
+            
+            <div class="consequence-list">
+                <div class="item">
+                    <span class="icon">🤥</span>
+                    <h3>Risco de Mentira</h3>
+                    <p>Comentários tendem a ficar desatualizados. Se o código muda e o comentário não, ele se torna uma informação falsa e enganosa.</p>
+                </div>
+                <div class="item">
+                    <span class="icon">👁️</span>
+                    <h3>Poluição Visual</h3>
+                    <p>O excesso de texto distrai o leitor do que realmente importa: a lógica. Comentários desnecessários diminuem a velocidade da leitura.</p>
+                </div>
+                <div class="item">
+                    <span class="icon">🗑️</span>
+                    <h3>Código Morto</h3>
+                    <p>Blocos de código "comentados para não perder" poluem o arquivo, dificultando a manutenção e a compreensão do que está ativo.</p>
+                </div>
+                <div class="item">
+                    <span class="icon">🔨</span>
+                    <h3>Sinal de Má Qualidade</h3>
+                    <p>Um comentário complexo geralmente indica que o trecho de código que ele explica é complexo demais e precisa ser refatorado para ser mais simples.</p>
+                </div>
+            </div>
+        </section>
+
+        <hr>
+
+        <section class="example-refactoring">
+            <h2>🔄 Exemplo e Refatoração em JavaScript</h2>
+            <p>A solução é usar a refatoração "Rename Method/Variable" (Renomear Método/Variável) e "Extract Method" (Extrair Método) para tornar o código legível por si só, sem precisar de comentários.</p>
+            
+            <div class="code-container">
+                <div class="code-block smelly-code">
+                    <h3>CÓDIGO RUIM (Comentários Excessivos)</h3>
+                    <pre><code id="smelly-code-content"></code></pre>
+                </div>
+                <div class="code-block clean-code">
+                    <h3>CÓDIGO LIMPO (Autoexplicativo)</h3>
+                    <pre><code id="clean-code-content"></code></pre>
+                </div>
+            </div>
+        </section>
+
+        <hr>
+
+        <section class="quiz-section">
+            <h2>🧠 Quiz Interativo</h2>
+            <p>Bora testar seus conhecimentos sobre o uso correto dos Comentários?</p>
+            <div id="quiz-container">
+                </div>
+        </section>
+
+    </main>
+
+    <footer>
+        <p>&copy; Trabalho de Clean Code - 2025 - SATC</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
