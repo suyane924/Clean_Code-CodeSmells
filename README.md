@@ -1,4 +1,4 @@
-# 🛠️ Clean Code Project: Code Smell - Comentários
+# 🛠️ Exercício Clean Code: Code Smell - Comentários
 
 Este projeto é um Infográfico Web Interativo criado para apresentar e explicar o *Code Smell* de Comentários, conforme os princípios do livro *Clean Code*.
 
