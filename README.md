@@ -2,7 +2,7 @@
 
 Este projeto é um Infográfico Web Interativo criado para apresentar e explicar o *Code Smell* de Comentários, conforme os princípios do livro *Clean Code*.
 
-## 👥 Equipe de Desenvolvimento
+## 👥 Equipe
 
 * **Suyane Bonfanti dos Santos**
 * **Gabriel Tarciso Macieiski**
@@ -13,11 +13,11 @@ Este projeto é um Infográfico Web Interativo criado para apresentar e explicar
 
 ## 🚀 Como Rodar o Projeto
 
-O projeto é 100% estático (HTML, CSS e JavaScript puros) e não requer a instalação de nenhuma dependência (como `npm` ou `pip`).
+O projeto é 100% estático, e não requer a instalação de nenhuma dependência (como `npm` ou `pip`).
 
-Para abrir e visualizar o projeto corretamente, siga um dos métodos abaixo, que simulam um servidor de páginas web simples:
+Para abrir e visualizar o projeto corretamente, siga o método abaixo, que simula um servidor de páginas web simples:
 
-### Opção 1: Usando a Extensão Live Server (Recomendado)
+### Usando a Extensão Live Server
 
 1.  Se estiver usando o **VS Code**, certifique-se de ter a extensão **Live Server** instalada.
 2.  Clique com o botão direito no arquivo `index.html`.
